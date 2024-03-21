@@ -27,7 +27,7 @@ a {
     color: #FFF;
 }
 
-p div img {
+div img {
     border-radius: 50%;
     margin-bottom: 24px;
 }
@@ -39,6 +39,29 @@ div h1 {
     margin-bottom: 4px;
 }
 
+div strong {
+    color: #C4F82A;
+    font-size: 14px;
+    line-height: 21px;
+}
+
 div p {
-    
+    margin-block: 24px;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+div a+a {
+    margin-top: 16px;
+}
+
+div a {
+    display: block;
+    text-decoration: none;
+    background-color: #333333;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
 }
